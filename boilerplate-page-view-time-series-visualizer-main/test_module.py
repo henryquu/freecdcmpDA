@@ -15,8 +15,8 @@ class LinePlotTestCase(unittest.TestCase):
 
     def test_line_plot_title(self):
         actual = self.ax.get_title()
-        expected = "Daily freeCodeCamp Forum Page Views 5/2016-12/2019"
-        self.assertEqual(actual, expected, "Expected line plot title to be 'Daily freeCodeCamp Forum Page Views 5/2016-12/2019'")
+        expected = "Daily freeCodeCamp Forum Page Views 05/2016-12/2019"
+        self.assertEqual(actual, expected, "Expected line plot title to be 'Daily freeCodeCamp Forum Page Views 05/2016-12/2019'")
     
     def test_line_plot_labels(self):
         actual = self.ax.get_xlabel()
